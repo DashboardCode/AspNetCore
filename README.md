@@ -1,4 +1,4 @@
-# DashboardCode.AspNetCore.Http
+# DashboardCode.AspNetCore
 
 Contains DevProxyMiddleware - proxy that pass GET requests (for `*.css` and `*.js` files) to the webpack devserver.
 
