@@ -5,13 +5,29 @@
     <AssemblyName>DashboardCode.AspNetCore.Http</AssemblyName>
     <RootNamespace>DashboardCode.AspNetCore.Http</RootNamespace>
     <Authors>Roman Pokrovskij (Github user rpokrovskij)</Authors>
-    <Description>Contains DevProxyMiddleware - proxy to pass JS and CSS requests to webpack devserver</Description>
+    <Description>contains DevProxyMiddleware - proxy to pass JS and CSS requests to webpack devserver</Description>
     <Copyright>2019 Roman Pokrokvsij (Github user rpokrovskij)</Copyright>
     <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression></PackageLicenseExpression>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/DashboardCode/AspNetCore</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/DashboardCode/AspNetCore</RepositoryUrl>
+    <PackageReleaseNotes>contains DevProxyMiddleware - proxy to pass JS and CSS requests to webpack devserver</PackageReleaseNotes>
+    <PackageTags>webpack devserver</PackageTags>
+    <PackageIconUrl>https://raw.githubusercontent.com/DashboardCode/Routines/master/Routines.png</PackageIconUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
