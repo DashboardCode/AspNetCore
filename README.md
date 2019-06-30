@@ -10,7 +10,7 @@ First add this to the Startup.cs
 
 Then add this to `Startup.ConfigureServices()` changing folder that contains bundle and URI of webpack deverver:
 
-    serviceCollection.AddSingleton( new DevProxyMiddlewareSettings(new PathString("/dist"), new Uri("http://localhost:55510")));
+    serviceCollection.AddSingleton( new DevProxyMiddlewareSettings(new PathString("/dist"), new Uri("http://localhost:55555")));
 
 Then add this to the `Startup.Configure:`
 
