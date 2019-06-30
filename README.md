@@ -19,6 +19,9 @@ After this all GET requests like http://localhost:xxxx/dist/sample.js will be re
 
 What is nice, it works for both cases: self-hosted and IISExpress hosted debugged application.
 
+## Alternatives and other ideas:
+    https://github.com/EDGE10/Webpack.NET - loop through manifest.json (unfortunatly manifest.json also will be in memory when use deveserver, so it is left unknown form how they solve this problem)
+
   [1]: https://www.nuget.org/packages/DashboardCode.AspNetCore.Http/
 
 
