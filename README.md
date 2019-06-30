@@ -16,7 +16,7 @@ Then add this to the `Startup.Configure:`
 
     app.UseMiddleware<DevProxyMiddleware>();
 
-After this all GET requests like http://localhost:xxxx/dist/sample.js will be redirected to the http://localhost:55510/dist/sample.js
+After this all GET requests like http://localhost:xxxx/dist/sample.js will be redirected to the http://localhost:55555/dist/sample.js
 
 
 What is nice, it works for both cases: self-hosted and IISExpress hosted debugged application.
