@@ -2,6 +2,8 @@
 
 Contains DevProxyMiddleware - proxy that pass GET requests (for `*.css` and `*.js` files) to the webpack devserver.
 
+NUGET: https://www.nuget.org/packages/DashboardCode.Routines.AspNetCore/
+
 First add this to the Startup.cs
 
     using DashboardCode.AspNetCore.Http;
