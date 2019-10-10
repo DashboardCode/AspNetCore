@@ -1,15 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
     <AssemblyName>DashboardCode.AspNetCore.Http</AssemblyName>
     <RootNamespace>DashboardCode.AspNetCore.Http</RootNamespace>
+    <Version>3.0.0</Version>
     <Authors>Roman Pokrovskij (Github user rpokrovskij)</Authors>
     <Description>contains DevProxyMiddleware - proxy to pass JS and CSS requests to webpack devserver</Description>
     <Copyright>2019 Roman Pokrokvsij (Github user rpokrovskij)</Copyright>
+    <AssemblyVersion>3.0.0.0</AssemblyVersion>
+    <FileVersion>3.0.0.0</FileVersion>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression></PackageLicenseExpression>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/DashboardCode/AspNetCore</PackageProjectUrl>
     <RepositoryUrl>https://github.com/DashboardCode/AspNetCore</RepositoryUrl>
     <PackageReleaseNotes>contains DevProxyMiddleware - proxy to pass JS and CSS requests to webpack devserver</PackageReleaseNotes>
@@ -17,11 +19,8 @@
     <PackageIconUrl>https://raw.githubusercontent.com/DashboardCode/Routines/master/Routines.png</PackageIconUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
   </PropertyGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
-  </ItemGroup>
 
   <ItemGroup>
     <None Include="..\LICENSE">
@@ -30,4 +29,8 @@
     </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  
 </Project>
