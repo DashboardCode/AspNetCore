@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.AspNetCore.Http;
 
-namespace DashboardCode.AspNetCore.Http
+namespace DashboardCode.AspNetCore
 {
     public class DevProxyMiddlewareSettings
     {
