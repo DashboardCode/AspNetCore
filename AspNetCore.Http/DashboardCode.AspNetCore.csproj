@@ -1,15 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <AssemblyName>DashboardCode.AspNetCore</AssemblyName>
     <RootNamespace>DashboardCode.AspNetCore</RootNamespace>
-    <Version>3.0.6</Version>
+    <Version>4.0.0</Version>
     <Authors>Roman Pokrovskij (Github user rpokrovskij)</Authors>
     <Description>Contains DevProxyMiddleware - proxy to pass JS and CSS requests to webpack devserver</Description>
     <Copyright>2019 Roman Pokrokvsij (Github user rpokrovskij)</Copyright>
-    <AssemblyVersion>3.0.6.0</AssemblyVersion>
-    <FileVersion>3.0.6.0</FileVersion>
+    <AssemblyVersion>4.0.0.0</AssemblyVersion>
+    <FileVersion>4.0.0.0</FileVersion>
     <RepositoryType>git</RepositoryType>
     <PackageLicenseExpression></PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/DashboardCode/AspNetCore</PackageProjectUrl>
